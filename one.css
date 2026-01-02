@@ -9,12 +9,12 @@ h1 {
 
 img {
     height: 500px;
-    width: 900px;
-    margin-left: 510px;
+    width: auto;
+    margin-left: 200px;
 }
 
 div {
-    margin-left: 510px;
+    margin-left: 250px;
     margin-top: 30px;
     border-top: 50px;
     border-width: 2px;
