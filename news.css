@@ -1,0 +1,76 @@
+/*Gives the page it's background color*/
+body {
+    background: rgb(210, 250, 243);
+}
+
+/*Title*/
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: normal;
+    row-gap: 20px;
+}
+
+/*images for the news*/
+img {
+    height: 200px;
+    width: 400px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+}
+
+/*a function allows for clickable articles*/
+a {
+    height: 300px;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*Button to get back home. Period seperates it from "a" function.*/
+.home {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4da2ac;
+    border: none;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    height: 30px;
+    width: 75px;
+}
+
+/*Copy + pasted from W3Schools*/
+.home:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6)
+}
+
+.archive {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border: none;
+    display: inline;
+    font-style: italic;
+    color: blue;
+    font-size: 16px;
+    cursor: pointer;
+}
